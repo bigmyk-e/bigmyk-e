@@ -33,7 +33,7 @@ Built a real-time security monitoring and automated response system on AWS. Plan
 **Skills:** SIEM · Wazuh · File Integrity Monitoring · Windows Server · GDPR · SOC workflows
 
 Deployed a Wazuh SIEM environment in a virtual lab to monitor Windows Server endpoints. Configured Wazuh Manager and agents from scratch, enabled File Integrity Monitoring, and verified alerts triggered correctly for file creation, modification, and deletion. Reviewed security events through the dashboard and mapped findings to GDPR compliance requirements to understand how SIEM supports regulatory monitoring.  
-→ *[View Repo](#)*
+→ *[View Repo](https://github.com/Bigmykeb/wazuh-siem-deployment)*
 
 -----
 
