@@ -200,8 +200,13 @@ Active remote intelligence operations and security analysis work. This covers pr
 
 ## 📊 GitHub Stats
 
-![Michael’s GitHub stats](https://github-readme-stats.vercel.app/api?username=bigmyk-e&show_icons=true&theme=dark&hide_border=true&cache_seconds=1800)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bigmyk-e&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bigmyk-e&theme=dark&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bigmyk-e&theme=github-dark&hide_border=true" alt="Contribution Graph"/>
+</p>
 
 -----
 
