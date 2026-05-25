@@ -74,6 +74,24 @@ flowchart LR
 
 ## Projects
 
+### 🔍 PCAP Network Traffic Analysis — Lumma Stealer Detection *(May 2026)*
+
+**Skills:** Wireshark · tcpdump · Network Forensics · OSINT · Threat Intelligence · FTP Analysis
+
+Analysed a packet capture from a simulated SOC alert at Astley Financial. 
+The endpoint was flagging abnormal behaviour consistent with info-stealer 
+malware activity. Identified Lumma Stealer via a unique User-Agent string 
+(TeslaBrowser/5.5) extracted from HTTP traffic. Recovered a credential 
+exfiltrated in plaintext via HTTP POST, extracted valid FTP authentication 
+credentials used to retrieve a file from the server, and confirmed C2 
+communication over Telegram. ASN lookup on the ICMP ping destination 
+confirmed external connectivity checks consistent with pre-exfiltration 
+behaviour.
+
+→ *[View Report (PDF)](https://github.com/bigmyk-e/pcap-network-traffic-analysis)*
+
+----
+
 ### 🎣 Phishing Analysis Challenges *(Apr – May 2026)*
 
 **Skills:** Email header analysis · IOC extraction · URL analysis · Threat intelligence · OSINT
