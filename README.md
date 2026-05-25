@@ -88,7 +88,7 @@ communication over Telegram. ASN lookup on the ICMP ping destination
 confirmed external connectivity checks consistent with pre-exfiltration 
 behaviour.
 
-→ *[View Report (PDF)](https://github.com/bigmyk-e/pcap-network-traffic-analysis)*
+→ *[View Repo](https://github.com/bigmyk-e/pcap-network-traffic-analysis)*
 
 ----
 
