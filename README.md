@@ -154,11 +154,13 @@ Active remote intelligence operations and security analysis work. This covers pr
 |------------------------|-----------------------------------------------------------|
 |Cloud Security          |AWS (CloudTrail, CloudWatch, EventBridge, Lambda, SNS, IAM)|
 |SIEM                    |Wazuh, Splunk (learning), ELK Stack                        |
-|Network Security        |Sophos NGFW, Cisco IOS, Nmap, Wireshark                    |
+|Network Security        |Sophos NGFW, Cisco IOS, Nmap, Wireshark, tcpdump           |
+|Email Forensics         |Thunderbird, Sublime Text, munpack, CyberChef              |
+|Threat Intelligence     |VirusTotal, AbuseIPDB, MXToolbox, WHOIS                    |
 |Vulnerability Management|OpenVAS / Greenbone, Nmap, Enum4Linux                      |
 |Virtualisation          |VMware Fusion, VirtualBox                                  |
 |OS / Environments       |Ubuntu, Kali Linux, Windows Server 2022, macOS             |
-|Scripting               |Python (basics)                                            |
+|Scripting               |Python (basics, IOC extraction)                            |
 |Platforms               |TryHackMe, HackerOne, Bugcrowd                             |
 
 -----
