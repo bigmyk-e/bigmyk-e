@@ -37,7 +37,7 @@ containing passwords, browser credentials, and keylogger data.
 Produced two professional SOC reports, an IOC summary table, 
 and an executive summary slide deck.
 
-→ *[View Repository](https://github.com/bigmyk-e/AgentTesla-SOC-Investigation)*
+→ *[View Repo](https://github.com/bigmyk-e/AgentTesla-SOC-Investigation)*
 
 ----
 
