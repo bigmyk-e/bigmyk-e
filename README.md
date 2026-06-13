@@ -74,6 +74,25 @@ flowchart LR
 
 ## Projects
 
+### 🔍 AgentTesla SOC Incident Investigation — Capstone Project *(June 2026)*
+
+**Skills:** Wireshark · Email Forensics · Malware Analysis · 
+FTP Exfiltration · OSINT · IOC Extraction · SOC Reporting
+
+Full SOC Tier 2 incident investigation into an AgentTesla 
+phishing and data exfiltration campaign. Analysed a malicious 
+.eml file and PCAP to reconstruct the complete attack chain — 
+from spoofed supplier email delivery through to FTP-based 
+credential exfiltration. Extracted 23 IOCs, identified 
+cleartext FTP credentials, and documented 4 exfiltrated files 
+containing passwords, browser credentials, and keylogger data. 
+Produced two professional SOC reports, an IOC summary table, 
+and an executive summary slide deck.
+
+→ *[View Repository](https://github.com/bigmyk-e/AgentTesla-SOC-Investigation)*
+
+----
+
 ### 🔍 PCAP Network Traffic Analysis — Lumma Stealer Detection *(May 2026)*
 
 **Skills:** Wireshark · tcpdump · Network Forensics · OSINT · Threat Intelligence · FTP Analysis
