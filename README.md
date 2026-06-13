@@ -20,58 +20,6 @@ Open to **Junior SOC Analyst** roles in the UK.
 
 -----
 
-## 🔴 Phishing Investigation Flow
-
-```mermaid
-flowchart LR
-    A([📧 Suspicious Email\nReported by Dana]) --> B[Visual Inspection\nThunderbird]
-    B --> C[Header Forensics\nSublime Text]
-    C --> D[Sender Verification\nnslookup · whois]
-    D --> E[Auth Analysis\nSPF · DKIM · DMARC]
-    E --> F[URL Extraction\neioc.py]
-    F --> G[Threat Intel\nVirusTotal]
-    G --> H([✅ Verdict\nConfirmed Phishing])
-
-    style A fill:#1a0a00,color:#ff8800,stroke:#ff8800
-    style B fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style C fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style D fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style E fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style F fill:#0d2200,color:#00ff88,stroke:#00ff88
-    style G fill:#0d2200,color:#00ff88,stroke:#00ff88
-    style H fill:#0d2200,color:#00ff88,stroke:#00ff88
-```
-
------
-
-## 🔴 Live: AWS Kill-Switch Flow
-
-```mermaid
-flowchart LR
-    A([👤 VictimUser\nAccesses Secret]) --> B[AWS Secrets Manager\nProduction_Database_Credentials]
-    B --> C[CloudTrail\nLogs API Call]
-    C --> D[Flow 1\nCloudWatch Metric Filter + Alarm]
-    C --> E[Flow 2\nEventBridge Rule]
-    D --> F[📧 SNS Email Alert]
-    E --> G[📧 SNS Email Alert]
-    E --> H[⚡ Lambda Kill-Switch\nRevokeAccessOnSecretAccess]
-    H --> I[🔒 IAM — All Permissions Stripped]
-    I --> J([❌ AccessDenied\nAll subsequent commands blocked])
-
-    style A fill:#1a0000,color:#ff4444,stroke:#ff4444
-    style B fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style C fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style D fill:#0d2200,color:#00ff88,stroke:#00ff88
-    style E fill:#0d2200,color:#00ff88,stroke:#00ff88
-    style F fill:#1a1a00,color:#ffcc00,stroke:#ffcc00
-    style G fill:#1a1a00,color:#ffcc00,stroke:#ffcc00
-    style H fill:#1a0a00,color:#ff8800,stroke:#ff8800
-    style I fill:#0a1628,color:#00d4ff,stroke:#00d4ff
-    style J fill:#1a0000,color:#ff4444,stroke:#ff4444
-```
-
------
-
 ## Projects
 
 ### 🔍 AgentTesla SOC Incident Investigation — Capstone Project *(June 2026)*
@@ -212,6 +160,57 @@ Active remote intelligence operations and security analysis work. This covers pr
 |OS / Environments       |Ubuntu, Kali Linux, Windows Server 2022, macOS             |
 |Scripting               |Python (basics)                                            |
 |Platforms               |TryHackMe, HackerOne, Bugcrowd                             |
+
+-----
+## 🔴 Phishing Investigation Flow
+
+```mermaid
+flowchart LR
+    A([📧 Suspicious Email\nReported by Dana]) --> B[Visual Inspection\nThunderbird]
+    B --> C[Header Forensics\nSublime Text]
+    C --> D[Sender Verification\nnslookup · whois]
+    D --> E[Auth Analysis\nSPF · DKIM · DMARC]
+    E --> F[URL Extraction\neioc.py]
+    F --> G[Threat Intel\nVirusTotal]
+    G --> H([✅ Verdict\nConfirmed Phishing])
+
+    style A fill:#1a0a00,color:#ff8800,stroke:#ff8800
+    style B fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style C fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style D fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style E fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style F fill:#0d2200,color:#00ff88,stroke:#00ff88
+    style G fill:#0d2200,color:#00ff88,stroke:#00ff88
+    style H fill:#0d2200,color:#00ff88,stroke:#00ff88
+```
+
+-----
+
+## 🔴 Live: AWS Kill-Switch Flow
+
+```mermaid
+flowchart LR
+    A([👤 VictimUser\nAccesses Secret]) --> B[AWS Secrets Manager\nProduction_Database_Credentials]
+    B --> C[CloudTrail\nLogs API Call]
+    C --> D[Flow 1\nCloudWatch Metric Filter + Alarm]
+    C --> E[Flow 2\nEventBridge Rule]
+    D --> F[📧 SNS Email Alert]
+    E --> G[📧 SNS Email Alert]
+    E --> H[⚡ Lambda Kill-Switch\nRevokeAccessOnSecretAccess]
+    H --> I[🔒 IAM — All Permissions Stripped]
+    I --> J([❌ AccessDenied\nAll subsequent commands blocked])
+
+    style A fill:#1a0000,color:#ff4444,stroke:#ff4444
+    style B fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style C fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style D fill:#0d2200,color:#00ff88,stroke:#00ff88
+    style E fill:#0d2200,color:#00ff88,stroke:#00ff88
+    style F fill:#1a1a00,color:#ffcc00,stroke:#ffcc00
+    style G fill:#1a1a00,color:#ffcc00,stroke:#ffcc00
+    style H fill:#1a0a00,color:#ff8800,stroke:#ff8800
+    style I fill:#0a1628,color:#00d4ff,stroke:#00d4ff
+    style J fill:#1a0000,color:#ff4444,stroke:#ff4444
+```
 
 -----
 
